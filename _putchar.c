@@ -6,6 +6,6 @@
 */
 int _putchar(char sp_ch)
 {
-	return (write(1, &sp_ch, 1)); /* 1 for write on the stander output */
+	return (write(1, &c, 1)); /* 1 for write on the stander output */
 }
 
